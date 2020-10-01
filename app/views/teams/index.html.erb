@@ -1,3 +1,10 @@
+<audio autoplay id="audio">
+  <source src="https://commons.nicovideo.jp/api/preview/get?cid=90552&content_type=mp3">
+</audio>
+<audio id="sound" preload="auto">
+  <source src="http://commons.nicovideo.jp/api/preview/get?cid=219499&content_type=mp3" type="audio/mp3">
+  <source src="http://commons.nicovideo.jp/api/preview/get?cid=219499&content_type=wav" type="audio/wav">
+</audio>
 <form id="form1">
   <p>
     <B>参加者</B>※チェックを入れてください。
@@ -12,6 +19,8 @@
   <input type="checkbox" name="person" value="山本">山本
   <input type="checkbox" name="person" value="横江">横江<br>
   <input type="checkbox"  id="check_all">全選択
+
   <input type="button" value="抽選" id="lottery"> 
+
 </form>
 <h1 id="span"></h1>
