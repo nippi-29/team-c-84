@@ -3,7 +3,7 @@
 # アプリケーション概要
     チェックをつけた人の中からランダムで1人選ぶアプリ
 # URL
-    https://team-c-84.herokuapp.com/
+   https://team-c-84.herokuapp.com/
 
 # 利用方法
     チェックボックスにチェックをつけて抽選を押すだけです
